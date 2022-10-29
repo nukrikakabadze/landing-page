@@ -1,0 +1,184 @@
+/* Global */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #0F172A
+}
+/* Header */
+.header{
+    background: #0F172A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    /* gap: 121px; */
+    /* position: absolute; */
+    height: 112px;
+    left: 0px;
+    right: 0px;
+    top: 4px;
+}
+.nav{
+    display: flex;
+    gap: 60px;
+   
+}
+.nav a{
+            text-decoration: none;
+            width: 118px;
+            height: 28px;
+            /* gap: 60px; */
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: #F8FAFC;
+            display: flex;
+            justify-content: center;
+}
+.img__recent__projects{
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
+   margin: 56px 144px;
+}
+/* Main */
+/* Project1 */
+.project1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 44px;
+    height: 300px;
+    /* position: absolute; */
+    /* width: 1150px;
+    left: 145px;
+    top: 349px; */
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    margin: 83px 145px;
+    justify-content: left;   
+}
+.txt__project1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    /* padding: 0px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+    transform: rotate(0.14deg); 
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+.img__project1{
+    background: url(casual-life-3d-idea-lamp.png);
+    /* padding: 02px */
+}
+.h1_project1{
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+.p_project1{
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+/* Project2 */
+.project2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 44px;
+    height: 300px;
+    /* position: absolute; */
+    /* width: 1150px;
+    left: 145px;
+    top: 349px; */
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    margin: 83px 145px;
+    justify-content: left;   
+}
+.txt__project2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+    transform: rotate(0.14deg); 
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+.img__project2{
+    background: url(casual-life-3d-idea-lamp.png);
+    padding: 25px
+}
+.h1_project2{
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+.p_project2{
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+/* Project3 */
+.project3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 44px;
+    height: 300px;
+    /* position: absolute; */
+    /* width: 1150px;
+    left: 145px;
+    top: 349px; */
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    margin: 83px 145px;
+    justify-content: left;   
+}
+.txt__project3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+    transform: rotate(0.14deg); 
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+.img__project3{
+    background: url(casual-life-3d-idea-lamp.png);
+    padding: 45px
+}
+.h1_project3{
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+.p_project3{
+    background: url(casual-life-3d-idea-lamp.png); 
+}
+/* Latest Posts */
+.img__latest__posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 56px 144px;
+}
