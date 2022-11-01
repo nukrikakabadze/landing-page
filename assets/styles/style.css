@@ -310,17 +310,5 @@ justify-content: space-evenly;
 }
 /* Footer */
 .line{
-    /* Line 11 */
-    /* position: absolute;
-    width: 2070.05px;
-    height: 0px;
-    left: 230px;*/
-    bottom: 10px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around; */
-    
-    /* Slate/300 */
-    
     border: 5px solid #CBD5E1;
 }
