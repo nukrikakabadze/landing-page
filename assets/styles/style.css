@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #0F172A
+    background: #0F172A;
 }
 /* Header */
 .header{
@@ -187,7 +187,7 @@
 display: flex;
 flex-direction: row;
 justify-content: center;
-justify-content: space-around;
+justify-content: space-evenly;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -202,7 +202,7 @@ justify-content: space-around;
     flex-direction: column;
     align-items: center;
     width: 369px;
-    height: 518px;
+    height: 500px;
     background: #1E293B;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -216,6 +216,7 @@ justify-content: space-around;
 .txt_card1{
     background: #1E293B; 
     padding: 25px;
+    border-radius: 20px;
 }
 .h1_card1{
     background: #1E293B;
@@ -252,6 +253,7 @@ justify-content: space-around;
 .txt_card2{
     background: #1E293B; 
     padding: 25px;
+    border-radius: 20px;
 }
 .h1_card2{
     background: #1E293B;
@@ -288,11 +290,13 @@ justify-content: space-around;
 .txt_card3{
     background: #1E293B; 
     padding: 25px;
+    border-radius: 20px;
 }
 .h1_card3{
     background: #1E293B;
     padding: 25px;
     text-align: center;
+    
 }
 .p_card3{
     background: #1E293B;
@@ -303,4 +307,20 @@ justify-content: space-around;
     background: #1E293B;
     padding: 25px;
     text-align: center;
+}
+/* Footer */
+.line{
+    /* Line 11 */
+    /* position: absolute;
+    width: 2070.05px;
+    height: 0px;
+    left: 230px;*/
+    bottom: 10px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    
+    /* Slate/300 */
+    
+    border: 5px solid #CBD5E1;
 }
