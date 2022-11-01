@@ -307,7 +307,7 @@ justify-content: space-evenly;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 160px;
+    padding: 50px 180px;
 }
 .copyright{
     width: 331px;
